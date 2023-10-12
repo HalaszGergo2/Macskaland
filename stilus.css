@@ -1,0 +1,89 @@
+body{
+    background-color: beige;
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+}
+.fejlec{
+    background-image: url(cicak_forras/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.menu ul li{
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    padding: 25px;
+}
+.keresem{
+    text-align: center;
+    color: white;
+}
+.keresem a{
+    text-decoration: none;
+    color: white;
+}
+#keresemacicat{
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;   
+    width: 250px;
+    margin: auto;
+}
+.elet{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.gombok{
+    padding-bottom: 45px;
+}
+.gombok a{
+    text-decoration: none;
+    color: white;
+}
+.gombok ul li{
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+.gombok ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+h1{
+    padding-top: 5px;
+    margin:0;
+}
+.tartalomelet{
+    color: white;
+    padding: 10px;
+}
