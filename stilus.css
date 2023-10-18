@@ -3,6 +3,7 @@ body{
     margin: auto;
     width: 90%;
     max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .fejlec{
     background-image: url(cicak_forras/images/hero.jpg);
@@ -86,4 +87,47 @@ h1{
 .tartalomelet{
     color: white;
     padding: 10px;
+}
+.kinti{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.norveg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elhelyezes{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.tartalomkinti ul{
+    text-align: left;
+}
+.kepek{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.text{
+    position: absolute;
+    right: 59%;
+    top: 84%;
+}
+.textketto{
+    position: absolute;
+    left: 65%;
+    top: 84%;
 }
